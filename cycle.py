@@ -31,5 +31,8 @@ def main():
                 turn += 1
         else:
             print('Эта клетка уже занята')
+        if turn == 9:
+            break
+            print('Ничья!')
     end(matrix)
     window.Close()
